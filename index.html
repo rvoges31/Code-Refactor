@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!-- Code Repo
+https://github.com/rvoges31/Code-Refactor
+
+Live site
+https://rvoges31.github.io/Code-Refactor/ 
+-->
+
 <head>
     <meta charset="UTF-8" />
+    <!--Insert css reset-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <!--Change Title of website-->
+    <title>Horiseon</title>
 </head>
 
 <body>
     <div class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <!-- Change div to nav for navigation pane-->
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,8 +33,9 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </div>
+    <!--Backgroud image - 4 persons at table-->
     <div class="hero"></div>
     <div class="content">
         <div class="search-engine-optimization">
@@ -71,12 +83,13 @@
             </p>
         </div>
     </div>
-    <div class="footer">
+    <!--Change following footer from <div> to <footer>-->
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
